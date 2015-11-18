@@ -17,6 +17,6 @@ Information
 *******************
 
 Kinh Luan
-`http://luan.500bits.com <http://luan.500bits.com>`_ 
-`Facebook <https://www.facebook.com/kinhluan.buihuynh>`_ 
-`GitHub <https://github.com/kinhluan>`_ 
+* `http://luan.500bits.com <http://luan.500bits.com>`_ 
+* `Facebook <https://www.facebook.com/kinhluan.buihuynh>`_ 
+* `GitHub <https://github.com/kinhluan>`_ 
