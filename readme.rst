@@ -8,6 +8,6 @@ By Kinh Luan
 Downloads
 *******************
 
-`CodeIgniter <http://www.codeigniter.com/download>`_
-`Smarty: PHP Template Engine <http://www.smarty.net/download>`_
-`AngularJS: Superheroic JavaScript MVW Framework <https://angularjs.org/>`_
+1. `CodeIgniter <http://www.codeigniter.com/download>`_ 
+2. `Smarty: PHP Template Engine <http://www.smarty.net/download>`_ 
+3. `AngularJS: Superheroic JavaScript MVW Framework <https://angularjs.org/>`_ 
