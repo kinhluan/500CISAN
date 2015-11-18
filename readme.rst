@@ -1,8 +1,9 @@
 ###################
-CodeIgniter with Smarty an AngularJS
+CodeIgniter with Smarty and AngularJS
 ###################
 
 By Kinh Luan
+11/2015
 
 *******************
 Downloads
