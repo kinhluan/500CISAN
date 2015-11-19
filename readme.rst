@@ -17,6 +17,19 @@ Included libraries
 5. `jQuery <https://jquery.com/>`_ 
 
 *******************
+Screen shot 
+*******************
+
+![500CISAN Home](https://github.com/kinhluan/500CISAN/blob/master/media/images/Screen%20Shot%202015-11-19%20at%2011.08.22%20PM.png)
+
+![500CISAN Structure](https://github.com/kinhluan/500CISAN/blob/master/media/images/Screen%20Shot%202015-11-19%20at%2011.08.24%20PM.png)
+
+![500CISAN Hello AJS](https://github.com/kinhluan/500CISAN/blob/master/media/images/Screen%20Shot%202015-11-19%20at%2011.08.28%20PM.png)
+
+![500CISAN About](https://github.com/kinhluan/500CISAN/blob/master/media/images/Screen%20Shot%202015-11-19%20at%2011.08.31%20PM.png)
+
+
+*******************
 Information
 *******************
 
