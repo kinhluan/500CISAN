@@ -80,6 +80,9 @@
 
                 <p>The corresponding controller for this page is found at:</p>
                 <code>application/controllers/Welcome.php</code>
+                
+                <p>Name: <input type="text" ng-model="yourName" placeholder="Enter a name here"></p>
+                <code>Hello {literal}{{yourName}}{/literal}!</code>
 
                 <p><i class="fa fa-internet-explorer"></i> My project:</p>
                 <code><a href="http://site.500bits.com/" target="_blank">http://site.500bits.com/</a></code>
