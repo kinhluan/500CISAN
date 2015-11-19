@@ -19,6 +19,10 @@ class Welcome extends CI_Controller {
      * map to /index.php/welcome/<method_name>
      * @see http://codeigniter.com/user_guide/general/urls.html
      */
+     
+    /**
+    * Index page
+    */ 
     public function index() {
         $data = array(
             'title' => "500CISAN - CodeIgniter with Smarty and AngularJS by Kinh Luân",
@@ -29,7 +33,7 @@ class Welcome extends CI_Controller {
     }
     
     /**
-    * structure
+    * Structure page
     */
     public function structure() {
         $data = array(
@@ -40,7 +44,7 @@ class Welcome extends CI_Controller {
     }
     
     /**
-     * hello_ajs
+     * Hello AngularJS page
      */
     public function hello_ajs() {
         $data = array(
@@ -52,7 +56,7 @@ class Welcome extends CI_Controller {
     }
 
     /**
-     * 
+     * About us Kinh Luân
      */
     public function about_us_kinhluan() {
         $data = array(
@@ -63,7 +67,7 @@ class Welcome extends CI_Controller {
     }
 
     /**
-     * 
+     * The Smarty parser works!
      */
     public function hello_smarty() {
         $data = array(
