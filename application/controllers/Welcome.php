@@ -20,7 +20,14 @@ class Welcome extends CI_Controller {
      * @see http://codeigniter.com/user_guide/general/urls.html
      */
     public function index() {
-        $this->load->view('welcome_message');
+        //$this->load->view('welcome_message');
+        
+        $data = array(
+            'title' => "CodeIgniter with Smarty and AngularJS by Kinh Luân",
+            'welcome_message' => "The page you are looking at is being generated dynamically by CodeIgniter with Smarty and AngularJS.",
+        );
+        
+        $this->parser->parse("welcome_message", $data);
     }
 
     /**
