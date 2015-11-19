@@ -1,7 +1,7 @@
 <html ng-app>
     <head>
         <title>{$title}</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+        <script src="{base_url()}static/default/angularjs/angular.js"></script>
     </head>
     <body>
         <div>
