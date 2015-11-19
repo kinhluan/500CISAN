@@ -20,22 +20,46 @@ class Welcome extends CI_Controller {
      * @see http://codeigniter.com/user_guide/general/urls.html
      */
     public function index() {
-        //$this->load->view('welcome_message');
-        
         $data = array(
-            'title' => "CodeIgniter with Smarty and AngularJS by Kinh Luân",
+            'title' => "500CISAN - CodeIgniter with Smarty and AngularJS by Kinh Luân",
             'welcome_message' => "The page you are looking at is being generated dynamically by CodeIgniter with Smarty and AngularJS.",
         );
-        
-        $this->parser->parse("welcome_message", $data);
+        $this->parser->parse("welcome/index", $data);
+        //$this->load->view('welcome_message');
+    }
+    
+    /**
+    * structure
+    */
+    public function structure() {
+        $data = array(
+            'title' => "Structureo of 500CISAN",
+            'welcome_message' => "",
+        );
+        $this->parser->parse("welcome/structure", $data);
+    }
+    
+    /**
+     * hello_ajs
+     */
+    public function hello_ajs() {
+        $data = array(
+            'title' => "Hello AngularJS",
+            'welcome_message' => "Please write your name or something you like...",
+        );
+        $this->parser->parse("welcome/hello_ajs", $data);
+        //$this->load->view('hello_ajs', $data);
     }
 
     /**
      * 
      */
-    public function about() {
-        echo "CodeIgniter with Smarty and AngularJS";
-        die();
+    public function about_us_kinhluan() {
+        $data = array(
+            'title' => "About us Kinh Luân",
+            'welcome_message' => "Hello, My name is Kinh Luân. I'm a software engineer living on the Ho Chi Minh City/ Vietnam.",
+        );
+        $this->parser->parse("welcome/about_us_kinhluan", $data);
     }
 
     /**
@@ -47,18 +71,6 @@ class Welcome extends CI_Controller {
             'body' => "This is body text to show that the Smarty Parser works!",
         );
         $this->parser->parse("hello_smarty", $data);
-    }
-
-    /**
-     * 
-     */
-    public function hello_ajs() {
-        $data = array(
-            'title' => "hello_ajs",
-            'body' => "Write name",
-        );
-        //$this->load->view('hello_ajs', $data);
-        $this->parser->parse("hello_ajs", $data);
     }
 
 }
