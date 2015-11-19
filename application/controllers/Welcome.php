@@ -18,6 +18,9 @@ class Welcome extends CI_Controller {
      * So any other public methods not prefixed with an underscore will
      * map to /index.php/welcome/<method_name>
      * @see http://codeigniter.com/user_guide/general/urls.html
+     *
+     * @author Kinh Luân
+     * @version beta.0.1, 05/05/07
      */
      
     /**
@@ -37,7 +40,7 @@ class Welcome extends CI_Controller {
     */
     public function structure() {
         $data = array(
-            'title' => "Structureo of 500CISAN",
+            'title' => "Structure of 500CISAN",
             'welcome_message' => "",
         );
         $this->parser->parse("welcome/structure", $data);
