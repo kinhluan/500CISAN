@@ -88,7 +88,7 @@
                 <code><a href="http://luan.500bits.com/" target="_blank">http://luan.500bits.com/</a></code>
 
                 <p><i class="fa fa-facebook-official"></i> Facebook:</p>
-                <code><a href="https://www.facebook.com/kinhluan.buihuynh" target="_blank">https://www.facebook.com/kinhluan.buihuynh</a></code>
+                <code><a href="https://www.facebook.com/kinhluan.buihuynh" target="_blank">https://fb.com/kinhluan.buihuynh</a></code>
                 
                 <p><i class="fa fa-github"></i> GitHub:</p>
                 <code><a href="https://github.com/kinhluan" target="_blank">https://github.com/kinhluan</a></code>
