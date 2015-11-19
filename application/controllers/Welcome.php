@@ -31,19 +31,27 @@ class Welcome extends CI_Controller {
         die();
     }
 
+    /**
+     * 
+     */
     public function hello_smarty() {
-        $this->load->library('parser');
         $data = array(
             'title' => "The Smarty parser works!",
             'body' => "This is body text to show that the Smarty Parser works!",
         );
-        // Load the template from the views directory
         $this->parser->parse("hello_smarty", $data);
     }
 
+    /**
+     * 
+     */
     public function hello_ajs() {
-        echo "AngularJS";
-        die();
+        $data = array(
+            'title' => "hello_ajs",
+            'body' => "Write name",
+        );
+        //$this->load->view('hello_ajs', $data);
+        $this->parser->parse("hello_ajs", $data);
     }
 
 }
