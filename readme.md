@@ -35,7 +35,7 @@ You need
 
 ### Clone 500CISAN
 ```sh
-$ git clone https://github.com/kinhluan/500CISAN/
+$ git clone https://github.com/kinhluan/500CISAN.git
 $ cd 500CISAN
 ```
 
